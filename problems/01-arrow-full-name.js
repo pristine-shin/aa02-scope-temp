@@ -14,7 +14,10 @@ arrowGetFullName(p2); // => 'Charlie Brown'
 
 ***********************************************************************/
 
-// Your code here 
+// Your code here
+const arrowGetFullName = (person) => {
+   return person.firstName + ' ' + person.lastName;
+}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
@@ -23,3 +26,4 @@ try {
 } catch (e) {
   module.exports = null;
 }
+
